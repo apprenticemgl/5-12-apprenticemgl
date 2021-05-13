@@ -1,6 +1,8 @@
 <?php
 
 require_once("includes/custom-post-types.php");
+require_once("includes/custom-taxonomies.php");
+require_once("includes/custom-general.php");
 
 function wpdocs_theme_name_scripts() {
     wp_enqueue_style( 'apprentice-style', get_stylesheet_uri() ); //style.css file-iig oruulj baina
