@@ -13,7 +13,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /* 5-13 branch */
 
 body {
-    background-image: url(https://mgl-bucket.s3.eu-central-1.amazonaws.com/mgl/54.jpg);
+    /* background-image: url(https://mgl-bucket.s3.eu-central-1.amazonaws.com/mgl/54.jpg); */
 }
 
 main .container {
