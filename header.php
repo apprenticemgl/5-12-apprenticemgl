@@ -46,6 +46,7 @@
     <!-- Custom styles for this template -->
     <link href="https://getbootstrap.com/docs/5.0/examples/product/product.css" rel="stylesheet">
     <?php wp_head(); ?>
+    <!-- google analytics code -->
   </head>
   <body <?php body_class(); ?>>
     
