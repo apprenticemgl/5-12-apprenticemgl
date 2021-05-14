@@ -15,7 +15,7 @@
             <div class="entry-content">
               <h1 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
                       <span class="date">By <?php the_author(); ?> on <?php echo get_the_date(); ?></span> ?>
-              <a class="view-more" href="<?php echo get_option('siteurl'); ?>/why-first-ib/faq/#<?php echo $faq_link; ?>">View Full Answer</a>
+              <a class="view-more" href="<?php echo get_option('siteurl'); ?>">View Full Answer</a>
               <?php the_excerpt(); ?></div>
             </div>
           </div>
