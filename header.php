@@ -61,6 +61,12 @@
     <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
     <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
     <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
+  <?php 
+    wp_nav_menu( [ 
+        'container' => false, 
+        'theme_location' => 'main-menu', 
+        'menu_class' => 'not-menu'
+    ]); ?>
   </nav>
 </header>
 

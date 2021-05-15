@@ -8,14 +8,13 @@
     </div>
     <div class="col-6 col-md">
       <h5>Features</h5>
-      <ul class="list-unstyled text-small">
-        <li><a class="link-secondary" href="#">Cool stuff</a></li>
-        <li><a class="link-secondary" href="#">Random feature</a></li>
-        <li><a class="link-secondary" href="#">Team feature</a></li>
-        <li><a class="link-secondary" href="#">Stuff for developers</a></li>
-        <li><a class="link-secondary" href="#">Another one</a></li>
-        <li><a class="link-secondary" href="#">Last time</a></li>
-      </ul>
+        <?php 
+        wp_nav_menu( [ 
+            'container' => false, 
+            'theme_location' => 'footer-menu', 
+            'menu_class' => 'not-menu'
+        ]);
+        ?>
     </div>
     <div class="col-6 col-md">
       <h5>Resources</h5>
