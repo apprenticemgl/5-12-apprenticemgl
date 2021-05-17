@@ -10,7 +10,7 @@
 
 
         <?php while ( have_posts() ) : the_post(); ?>
-        <?php // print_r($post); ?>
+          <?php // print_r($post); ?>
           <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
             <div class="entry-content">
               <?php // the_field( echo $value; ); ?>
@@ -22,7 +22,7 @@
               <?php echo get_option('blog_charset'); ?>
             </div>
           </div>
-				<?php endwhile; ?>
+        <?php endwhile; ?>
   <!-- <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
     <div class="col-md-5 p-lg-5 mx-auto my-5">
       <h1 class="display-4 fw-normal">Index.php</h1>
